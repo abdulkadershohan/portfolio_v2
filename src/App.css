@@ -1,0 +1,15 @@
+.App{
+    background-color:#282c34;
+}
+.gap{
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+.container{
+    background: #3d414a;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+
+}

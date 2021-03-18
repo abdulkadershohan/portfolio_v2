@@ -1,0 +1,46 @@
+.content {
+    background-color: #161616;
+}
+
+.content:hover {
+    transition: all 0.4s ease;
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 253) !important;
+}
+.card-body{
+    padding-bottom: 28px;
+    margin-bottom: 15px;
+}
+
+.card-body h4 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Calibri;
+    font-weight: 600;
+}
+.card-body p {
+    opacity: 0.5;
+    color: #E0FFFF;
+    text-transform: uppercase;
+    font-family: Calibri;
+    font-weight: 600;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.image_portfolio {
+
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+.image_portfolio:hover {
+    transform: scale(1.8);
+}
+@media screen and (max-width: 960px) {
+    .card-body{
+        max-height: 60vh;
+        min-height: 30vh;
+    }
+}

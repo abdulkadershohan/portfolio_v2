@@ -1,0 +1,29 @@
+.content-left h1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #61dafb;
+    font-family: Poppins;
+}
+.content-right{
+    filter: drop-shadow(-3px 17px 8px rgba(0, 0, 0, 0.3));
+}
+.university{
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+.content-left a{
+    font-weight: bold;
+}
+.content-right img:hover{
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 5px 10px 20px 1px rgba(0,0,0,253)!important ;
+
+}
+.content-right{
+    overflow: hidden;
+}

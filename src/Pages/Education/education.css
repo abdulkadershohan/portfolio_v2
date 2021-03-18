@@ -1,0 +1,22 @@
+.title-right p{
+    font-style: italic;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    color: white;
+}
+.title-left p{
+    font-style: italic;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    color: white;
+}
+.title-right h3{
+    font-family: Poppins;
+    font-weight: bold;
+    color: wheat;
+}
+.title-left h3{
+    font-family: Poppins;
+    font-weight: bold;
+    color: wheat;
+}
