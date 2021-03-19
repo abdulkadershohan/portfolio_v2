@@ -12,14 +12,19 @@ import Navbar from "./Components/Navbar/navbar";
 function App() {
   return (
     <div className="App">
-     <Navbar/>
-      <Home />
-      <About />
-      <Education />
-      <Skills />
-      <Portfolio />
-      <Contact />
-      <Footer />
+
+            <Navbar/>
+            <Home />
+            <About />
+            <Education />
+            <Skills />
+            <Portfolio />
+            <Contact />
+            <Footer />
+            <div className="top">
+                <a href="#"><i className="fas fa-arrow-up"></i></a>
+            </div>
+
     </div>
   );
 }
